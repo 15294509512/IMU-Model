@@ -20,7 +20,7 @@ $$
 \end{aligned}
 $$
 
-有上标波浪线的代表的是陀螺仪的测量值  $ {\tilde{\mathbf{\omega}}^b}$  和加速度计的测量值  ${\tilde{\mathbf{a}}^b}$
+有上标波浪线的代表的是陀螺仪的测量值  ${\tilde{\mathbf{\omega}}^b}$  和加速度计的测量值  ${\tilde{\mathbf{a}}^b}$
 右上标 $b$ 表示的是 body坐标系，$w$ 表示世界坐标系或惯性坐标系，$a$ 表示加速度acc, $g$ 表示gyro陀螺仪。
 
 所以位移 $p$，速度 $v$，四元数 $q$ 的微分形式如下所示，${\otimes}$ 代表四元数之间的乘法。
@@ -37,9 +37,12 @@ $$
 $$
 
 
+
+
+
 ## 2.连续时间下IMU运动模型
 
-根据上面的微分形式，可以从第 $i$ 个时刻的位移 ${\mathbf{p}_{wb_i}}$ ，速度  ${\mathbf{v}^w_i}$ ，四元数 ${\mathbf{q}_{wb_i}}$  通过IMU的测量值进行积分，得到第 $j$ 时刻的位移（ ${\mathbf{p}_{wb_j}}$ ） 、速度（  ${\mathbf{v}^w_j}$ ） 、四元数（ ${\mathbf{q}_{wb_j}}$ ）。
+根据上面的微分形式，可以从第 $i$ 个时刻的位移 $\mathbf{p}_{wb_i}$ ，速度  $\mathbf{v}^w_i$ ，四元数 $\mathbf{q}_{wb_i}$  通过IMU的测量值进行积分，得到第 $j$ 时刻的位移（ $\mathbf{p}_{wb_j}$ ） 、速度（  $\mathbf{v}^w_j$ ） 、四元数（ $\mathbf{q}_{wb_j}$ ）。
 
 
 $$
