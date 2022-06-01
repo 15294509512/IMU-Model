@@ -24,6 +24,7 @@ $$
 右上标 $b$ 表示的是 body坐标系，$w$ 表示世界坐标系或惯性坐标系，$a$ 表示加速度acc,$g$ 表示gyro陀螺仪。
 
 所以位移 $p$，速度 $v$，四元数 $q$ 的微分形式如下所示，${\otimes}$ 代表四元数之间的乘法。
+
 $$
 \begin{aligned}
     {\dot{\mathbf{p}}_{wb_t}} &= {\mathbf{v}^w_t} \\
@@ -52,6 +53,7 @@ $$
 
 ## 3.运动模型的离散积分--欧拉法
 使用欧拉法，即两个相邻时刻 $k$ 到 $k+1$ 的位姿是用第$k$时刻的测量值 $\mathbf{a}$，${\mathbf{\omega}}$ 来计算的
+
 $$
 \begin{aligned}
     {\mathbf{p}_{wb_{k+1}}} &= {\mathbf{p}_{wb_k}} + {{\mathbf{v}}^w_t}{{\triangle}t} +  {\frac{1}{2}\mathbf{a}{{\triangle}t^2}}  \\
