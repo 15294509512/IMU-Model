@@ -38,7 +38,7 @@ $$
 
 
 ## 2.连续时间下IMU运动模型
-根据上面的微分形式，可以从第 $i$ 个时刻的位移 ${\mathbf{p}_{wb_i}}$，速度 ${\mathbf{v}^w_i}$，四元数 ${\mathbf{q}_{wb_i}}$ 通过IMU的测量值进行积分，得到第 $j$ 时刻的位移（$ {\mathbf{p}_{wb_j}}$）、速度（$ {\mathbf{v}^w_j}$）、四元数（${\mathbf{q}_{wb_j}}$）。
+根据上面的微分形式，可以从第 $i$ 个时刻的位移 ${\mathbf{p}_{wb_i}}$ ，速度  ${\mathbf{v}^w_i}$ ，四元数 ${\mathbf{q}_{wb_i}}$  通过IMU的测量值进行积分，得到第 $j$ 时刻的位移（$ {\mathbf{p}_{wb_j}}$） 、速度（  $ {\mathbf{v}^w_j}$ ） 、四元数（ ${\mathbf{q}_{wb_j}}$ ）。
 
 $$
 \begin{aligned}
@@ -52,7 +52,7 @@ $$
 $$
 
 ## 3.运动模型的离散积分--欧拉法
-使用欧拉法，即两个相邻时刻 $k$ 到 $k+1$ 的位姿是用第$k$时刻的测量值 $\mathbf{a}$，${\mathbf{\omega}}$ 来计算的
+使用欧拉法，即两个相邻时刻 $k$ 到 $k+1$ 的位姿是用第 $k$ 时刻的测量值 $\mathbf{a}$ ，${\mathbf{\omega}}$ 来计算的
 
 $$
 \begin{aligned}
