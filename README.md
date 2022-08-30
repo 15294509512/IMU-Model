@@ -19,8 +19,7 @@ $$
 \end{aligned}
 $$
 
-有上标波浪线的代表的是陀螺仪的测量值 $ \tilde{\mathbf{\omega}}^b$ 和加速度计的测量值 ${\tilde{\mathbf{a}}^b}$
-右上标 $b$ 表示的是 body坐标系，$w$ 表示世界坐标系或惯性坐标系，$a$ 表示加速度acc,$g$ 表示gyro陀螺仪。
+有上标波浪线的代表的是陀螺仪的测量值$\tilde{\mathbf{\omega}}^b$和加速度计的测量值${\tilde{\mathbf{a}}^b}$右上标 $b$ 表示的是 body坐标系，$w$ 表示世界坐标系或惯性坐标系,$a$表示加速度acc,$g$ 表示gyro陀螺仪。
 所以位移 $p$，速度 $v$，四元数 $q$ 的微分形式如下所示，$\otimes$ 代表四元数之间的乘法。
 
 $$
